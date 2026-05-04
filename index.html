@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Salmon — Official Developer Site</title>
+    <meta name="description" content="Official developer website for Wild Salmon — a neon arcade flight game for Android.">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: radial-gradient(circle at 30% 20%, #1a0b3d 0%, #05010f 60%, #000 100%);
+            color: #e8ecff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            line-height: 1.5;
+        }
+        .card {
+            width: 100%;
+            max-width: 720px;
+            background: rgba(20, 14, 48, 0.7);
+            border: 1px solid rgba(148, 108, 255, 0.35);
+            border-radius: 24px;
+            padding: 48px 40px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5), 0 0 40px rgba(148, 108, 255, 0.15);
+            backdrop-filter: blur(8px);
+        }
+        .badge {
+            display: inline-block;
+            font-size: 11px;
+            letter-spacing: 2px;
+            color: #ff7bf5;
+            background: rgba(255, 123, 245, 0.12);
+            padding: 6px 14px;
+            border-radius: 999px;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        h1 {
+            font-size: clamp(32px, 5vw, 48px);
+            background: linear-gradient(135deg, #8cf0ff 0%, #b47bff 55%, #ff7bf5 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        .tagline {
+            font-size: 17px;
+            color: #b9b4d6;
+            margin-bottom: 32px;
+        }
+        .section {
+            margin-top: 28px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(148, 108, 255, 0.18);
+        }
+        .section h2 {
+            font-size: 13px;
+            letter-spacing: 2px;
+            color: #8cf0ff;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .section p, .section li {
+            color: #d4d0ea;
+            font-size: 15px;
+        }
+        .section ul { padding-left: 20px; margin-top: 6px; }
+        .links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+        .links a {
+            color: #8cf0ff;
+            text-decoration: none;
+            padding: 10px 18px;
+            background: rgba(140, 240, 255, 0.08);
+            border: 1px solid rgba(140, 240, 255, 0.25);
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .links a:hover {
+            background: rgba(140, 240, 255, 0.16);
+            transform: translateY(-1px);
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(148, 108, 255, 0.18);
+            color: #6f6a8a;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main class="card">
+        <span class="badge">Official Developer Site</span>
+        <h1>Wild Salmon</h1>
+        <p class="tagline">A neon arcade flight game where a wild salmon jumps through glowing obstacles. Available on Google Play.</p>
+
+        <section class="section">
+            <h2>About the Game</h2>
+            <p>Tap to fly, dodge obstacles, collect coins, unlock skins, and chase the high score. Designed for short mobile sessions with deep progression and seasonal events.</p>
+        </section>
+
+        <section class="section">
+            <h2>Platform</h2>
+            <ul>
+                <li>Android — package <code>com.wildsalmon.neonbird</code></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Developer Links</h2>
+            <div class="links">
+                <a href="app-ads.txt">app-ads.txt</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="https://play.google.com/store/apps/details?id=com.wildsalmon.neonbird">Google Play</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Contact</h2>
+            <p>For press, business or support inquiries, please reach out via the Google Play listing.</p>
+        </section>
+
+        <footer>
+            © Wild Salmon. All rights reserved.
+        </footer>
+    </main>
+</body>
+</html>
